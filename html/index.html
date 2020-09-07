@@ -1,5 +1,11 @@
 <html>
 	<body>
-		Hello <span id="name">Marlove</span>.
+		Hello <span id="name">NONAME</span>.
+		<label for="textInput">Text</label>
+		<input id="textInput" type="text">
+		<input id="submitButton" type="submit"
+			   onclick="document.getElementById('textInputSpan').innerHTML =
+			   document.getElementById('textInput').value">
+		Clicou: <span id="textInputSpan">NOTEXT</span>.
 	</body>
 </html>
